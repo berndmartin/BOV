@@ -5,7 +5,7 @@ USING WEBI.*.
 DEFINE VARIABLE objConnection AS CLASS connection NO-UNDO.
 DEFINE VARIABLE lcc           AS LONGCHAR         NO-UNDO.
 
-objConnection = NEW connection("SDKUser","openSDK","secEnterprise","newken01","6405").
+objConnection = NEW connection("WebiUser","openWebi","secEnterprise","bmline01","6405").
 IF VALID-OBJECT(objConnection)
 THEN DO:
   
